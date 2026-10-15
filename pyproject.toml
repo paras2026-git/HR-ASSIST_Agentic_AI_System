@@ -1,0 +1,10 @@
+[project]
+name = "hr-assist"
+version = "0.1.0"
+description = "HR-ASSIST MCP server for automating HR workflows like employee onboarding"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]<2",
+    "python-dotenv",
+]
